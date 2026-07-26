@@ -1,8 +1,32 @@
 aid: entalpic
 name: Entalpic
-description: Entalpic is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Entalpic is an AI-driven materials science company that designs molecules and
+  materials for industrial processes by combining machine learning, atomistic
+  simulations, and experimental feedback loops to engineer surfaces and
+  materials at the atomic scale. Its work spans a Discovery Engine for
+  high-throughput screening of chemical spaces, process modeling with ML-plus-CFD
+  digital twins, and quantum/atomistic simulation for surface chemistry, applied
+  to semiconductors and thin-film coatings, battery cathode and interface
+  chemistry, catalysis and active-site design, and advanced specialty materials.
+  Founded in 2024 with research roots at the Mila AI lab, the company is based at
+  Station F in Paris and Mila in Montreal and raised an 8.5M euro seed round.
+  Entalpic does not currently publish a public developer API, SDKs, or API
+  documentation; this profile tracks its public web surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/entalpic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://entalpic.ai/wp-content/uploads/2025/03/logo-couleur.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Materials Science
+- Chemistry
+- Simulation
+- Deep Tech
+- Semiconductors
+- Batteries
+- Catalysis
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/entalpic-domain-security.yml
 - type: Website
   url: https://entalpic.ai
+- type: Blog
+  url: https://entalpic.ai/news/
+- type: TermsOfService
+  url: https://entalpic.ai/terms-conditions
+- type: Support
+  url: https://entalpic.ai/#Contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

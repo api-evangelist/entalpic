@@ -1,0 +1,21 @@
+{
+  "repo": "entalpic",
+  "feeds": [
+    {
+      "source": "https://entalpic.ai/feed/",
+      "feed_url": "https://entalpic.ai/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://entalpic.ai",
+      "feed_url": "https://entalpic.ai/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 9,
+  "fetched": "2026-07-25T15:00:33Z"
+}
